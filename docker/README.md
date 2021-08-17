@@ -31,6 +31,7 @@ git clone https://github.com/nancy134/user-service.git
 ## Add .env file
 
 In the user-service directory add a file called .env which the following contents:
+
 (Get the values over Slack as these cannot be checked into the repository)
 ```
 DATABASE_URL=
