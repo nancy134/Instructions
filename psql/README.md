@@ -20,4 +20,5 @@ psql
 ```
 \dt (to list all tables)
 SELECT * from "Users"; (to see everything in the Users table - must have quotes)
+\q (to quit)
 ```
