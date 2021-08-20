@@ -50,9 +50,12 @@ docker-compose up
 ## run npm install to get tool
 ```
 npm install
+npx sequelize db:migrate
 ```
 ## Check if it is running properly
 
-Put the following in the
+Put the following in the browser:
+
 http://localhost:49161/
+
 You should get back "user-service"
