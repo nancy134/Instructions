@@ -26,8 +26,9 @@ git --version
 ```
 ## Clone repository
 
+```
 git clone https://github.com/nancy134/user-service.git
-
+```
 ## Add .env file
 
 In the user-service directory add a file called .env which the following contents:
@@ -46,7 +47,10 @@ AWS_SNS_UPDATE_USER_TOPIC=
 docker-compose build
 docker-compose up
 ```
-
+## run npm install to get tool
+```
+npm install
+```
 ## Check if it is running properly
 
 Put the following in the
