@@ -27,7 +27,7 @@ git --version
 ## Clone repository
 
 ```
-git clone https://github.com/nancy134/user-service.git
+git clone git@github.com:nancy134/user-service.git
 ```
 ## Add .env file
 
