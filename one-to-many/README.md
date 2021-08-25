@@ -2,7 +2,7 @@
 
 This example will use Users and Clients table where a User has many Clients
 
-# Client migration
+## Client migration
 
 Add UserId as foreign key in Clients table
 
@@ -17,7 +17,7 @@ Add UserId as foreign key in Clients table
             },
 ```
 
-# User model (ie, models/user.js)
+## User model (ie, models/user.js)
 
 Add an association in the User model
 ```
@@ -25,7 +25,7 @@ Add an association in the User model
         User.hasMany(models.Client, {as: 'clients'});
     };
 ```
-# Client model (ie, models/client.js)
+## Client model (ie, models/client.js)
 
 Add an association in the Clietn model
 ```
