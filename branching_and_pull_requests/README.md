@@ -1,6 +1,6 @@
 # Creating a branch
 ```
-git clone https://github.com/nancy134/realty-app.git
+git clone git@github.com:nancy134/user-service.git
 git checkout master
 git pull
 git checkout -b test-branch 
@@ -15,7 +15,7 @@ git push --set-upstream origin test-branch (after this 'git push' should work fo
 ```
 # Creating a pull request
 ```
-Go to https://github.com/nancy134/realty-app
+Go to https://github.com/nancy134/user-service
 Select "Pull requests"
 Select "Compare & pull request"
 Select "Create pull request"
