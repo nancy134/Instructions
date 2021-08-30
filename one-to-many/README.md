@@ -33,3 +33,13 @@ Add an association in the Clietn model (see models/user.js as an example)
         Client.belongsTo(models.User, {as: 'user', foreignKey: 'UserId'});
     };
 ```
+## Run migration
+```
+npx sequelize db:migrate
+```
+
+## Build and Run
+```
+docker-compose build
+docker-compose up
+```
