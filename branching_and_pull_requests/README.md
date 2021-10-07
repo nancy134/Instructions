@@ -1,6 +1,6 @@
 # Creating a branch
 ```
-git clone git@github.com:nancy134/user-service.git
+git clone git@github.com:nancy134/realty-app.git
 git checkout master
 git pull
 git checkout -b test-branch 
