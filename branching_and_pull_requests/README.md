@@ -15,7 +15,7 @@ git push --set-upstream origin test-branch (after this 'git push' should work fo
 ```
 # Creating a pull request
 ```
-Go to https://github.com/nancy134/user-service
+Go to https://github.com/nancy134/realty-app
 Select "Pull requests"
 Select "Compare & pull request"
 Select "Create pull request"
